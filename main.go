@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/bitmaskit/go-insertion-sort/inserion"
 )
 
 func main() {
-	fmt.Println("hi")
+	arr := []int{4,3,2,1}
+	insertion.Sort(arr)
+	fmt.Println(arr)
 }
